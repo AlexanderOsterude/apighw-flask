@@ -23,7 +23,7 @@ hackathons_list = {
 def hello_ghw():
     return "<p>Alex!</p>"
 
-@app.rout("/getHackathons", methods=["GET"])
+@app.route("/getHackathons", methods=["GET"])
 def getHackathons():
     return hackathons_list
 
